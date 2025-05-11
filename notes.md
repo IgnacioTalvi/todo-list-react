@@ -5,7 +5,7 @@ Main (All content)
             Input
             Add todo (+)
     
-    Content
+    Cards
         Card 1
             Checkbox
             Paragraph
@@ -18,4 +18,7 @@ Main (All content)
             Checkbox (✅)
             Paragraph
             Delete (X)
+    Bottom
+        Delete all
+        Reset
 Main
