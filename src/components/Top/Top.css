@@ -1,0 +1,58 @@
+.top {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .top h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: left;
+    color: rgb(28, 30, 35);
+  }
+  
+  .top-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .top-content input {
+    flex: 1;
+    padding: 1em 16px;
+    border: 2px solid #e6e6e6;
+    font-size: 1.5rem;
+    outline: none;
+  }
+  
+  .top-content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 40px;
+    font-size: 1.5rem;
+    background-color: #106fff;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .top-content button:hover {
+    background-color: #0a0a0a;
+  }
+
+  @media (max-width: 600px) {
+    .top-content {
+      flex-direction: row;        
+      gap: 8px;
+    }
+  
+    .top-content input {
+      flex: 1;                    
+      min-width: 0;              
+    }
+ 
+  }
